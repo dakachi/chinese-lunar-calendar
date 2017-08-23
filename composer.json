@@ -1,0 +1,24 @@
+{
+  "name": "peterkahl/chinese-lunar-calendar",
+  "type": "library",
+  "description": "Converts from Gregorian date to Chinese lunisolar date and vice versa.",
+  "keywords": ["date", "chinese-date", "chinese-calendar", "lunar-date", "lunar-calendar"],
+  "homepage": "https://github.com/peterkahl/chinese-lunar-calendar",
+  "license": "Apache License Version 2.0",
+  "authors": [
+    {
+      "name": "Peter Kahl",
+      "email": "peter.kahl@colossalmind.com",
+      "homepage": "https://www.colossalmind.com/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "peterkahl\\Lunar\\": "src/"
+    }
+  }
+}
