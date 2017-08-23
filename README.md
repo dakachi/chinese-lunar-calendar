@@ -7,7 +7,7 @@ Converts from Gregorian date to Chinese lunisolar date and vice versa. Accepts d
 ```php
 use peterkahl\Lunar\Lunar;
 
-$gregorianDate = date('Y-m-d'); # '2017-08-23'
+$gregorianDate = '2017-08-23';
 
 $chineseDate = Lunar::Gregorian2Lunar($gregorianDate);
 
@@ -29,6 +29,24 @@ array(7) {
   string(12) "七月初二"
   ["en"]=>
   string(5) "07-02"
+}
+*/
+#-------------------------------------------------
+
+$chineseDate = '2017-07-2';
+
+$gregorianDate = Lunar::Lunar2Gregorian($chineseDate);
+
+var_dump($gregorianDate);
+
+/*
+array(3) {
+  ["y"]=>
+  int(2017)
+  ["m"]=>
+  int(8)
+  ["d"]=>
+  int(23)
 }
 */
 ```

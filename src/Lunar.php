@@ -218,7 +218,7 @@ class Lunar {
   public static function Gregorian2Lunar($greg) {
 
     list($gregYear, $gregMonth, $gregDay) = explode('-', $greg);
-    $gregYear  = (integer) $lunarYear;
+    $gregYear  = (integer) $gregYear;
     self::ValidateYear($gregYear);
     $gregMonth = (integer) ltrim($gregMonth, '0');
     $gregDay   = (integer) ltrim($gregDay, '0');
