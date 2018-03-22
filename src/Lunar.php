@@ -7,9 +7,9 @@
  *
  * Forked from <https://github.com/isee15/Lunar-Solar-Calendar-Converter>
  *
- * @version    1.0 (2017-08-23 10:37:00 GMT)
+ * @version    1.0.1 (2018-03-22 15:22:00 GMT)
  * @author     <isee15@outlook.com>
- * @author     Peter Kahl <peter.kahl@colossalmind.com>
+ * @author     Peter Kahl <https://github.com/peterkahl>
  * @license    Apache License, Version 2.0
  *
  * Copyright 2015 <isee15@outlook.com>
